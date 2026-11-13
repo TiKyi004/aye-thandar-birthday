@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;500;600;700&display=swap');
 
 :root {
   --pink: #ec8eae;
@@ -12,14 +11,14 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0; color: var(--ink); background: var(--cream);
-  font-family: "DM Sans", "Noto Sans Myanmar", sans-serif;
+  font-family: Arial, "Noto Sans Myanmar", sans-serif;
   overflow-x: hidden;
 }
 button, a { font: inherit; }
 button { cursor: pointer; }
 .section-padding { padding: 100px 7vw; }
 .eyebrow { color: var(--deep-pink); letter-spacing: 3px; font-size: .72rem; font-weight: 700; }
-h1, h2 { font-family: "Playfair Display", Georgia, serif; }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
 h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin: 10px 0; }
 p { line-height: 1.8; }
 .welcome-screen {
@@ -96,7 +95,7 @@ code { background: #ffeaf1; padding: 2px 6px; border-radius: 5px; }
 .letter-card h2 { font-size: clamp(2rem, 5vw, 3rem); color: var(--deep-pink); }
 .letter-text { color: #806474; line-height: 2; font-size: 1.02rem; }
 .signature { color: #a06c82; margin-top: 30px; }
-.signature span { font-family: "Playfair Display", Georgia, serif; color: var(--deep-pink); font-size: 1.6rem; }
+.signature span { font-family: Georgia, "Times New Roman", serif; color: var(--deep-pink); font-size: 1.6rem; }
 .cake-section { text-align: center; background: #fffafc; }
 .cake-wrap { display: flex; justify-content: center; padding: 45px 0 25px; }
 .cake { width: 240px; position: relative; height: 205px; }

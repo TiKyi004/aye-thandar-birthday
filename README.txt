@@ -1,4 +1,4 @@
-# Aye Thandar Linn - Birthday Surprise Website
+# Baby - Birthday Surprise Website
 
 ## Run in PyCharm
 1. Extract this ZIP file.
@@ -32,3 +32,6 @@ You can publish the folder with GitHub Pages:
 4. Wait for the published URL, then send that URL to her.
 
 Keep personal photos private if you do not want them publicly accessible. Anyone with the public website link may be able to view them.
+
+
+Mobile loading improvements: music uses preload=none and photos use lazy loading. The page no longer depends on Google Fonts to render.
